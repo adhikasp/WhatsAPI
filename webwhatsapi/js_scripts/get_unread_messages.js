@@ -37,6 +37,7 @@ for (chat in Chats) {
             });
         }
     }
+    Chats[chat].markSeen();
     if(temp.messages.length > 0) {
         Output.push(temp);
     }
